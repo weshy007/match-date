@@ -1,0 +1,7 @@
+#navigation-bar{
+    font-size: 25px;
+}
+.navbar-nav{
+    position: relative;
+    left: 70%;
+}
