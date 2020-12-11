@@ -5,4 +5,21 @@
     position: relative;
     left: 70%;
 }
-
+/*body{
+    background-image: url(/images/960x0.jpg);
+    background-repeat: no-repeat;
+}*/
+.description{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    left: 25%;
+    top: 30%;
+    font-style: italic;
+} 
+.footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 1%;
+}
