@@ -11,7 +11,7 @@
     <!--Navigaton bar code-->
     <div id="navigation-bar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Wowzi</a>
+        <a class="navbar-brand" href="">Wowzi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,7 +19,7 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#">Our Feature</a>
-            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="">About</a>
           </div>
         </div>
     </nav>
@@ -34,45 +34,53 @@
               Please fill the form below
           </p>
         </div>
-
-      <div class="form">
-        <form>
-          <div class="form-row">
-            <div class="col">
-              <input type="number" class="form-control" placeholder="Day"> 
-            </div> 
-            <div class="col">
-              <input type="number" class="form-control" placeholder="Month">
-            </div>
-            <div class="col">
-              <input type="number" class="form-control" placeholder="Century eg. 19">
-            </div>
-            <div class="col">
-              <input type="number" class="form-control" placeholder="Year">
-            </div>
-            <div>
-              <input type="radio" id="male" name="gender" value="male">
-              <label for="male">Male</label>
-              <input type="radio" id="female" name="gender" value="female">
-              <label for="female">Female</label>
+        <div class="formfill">
+          <div class="card" style="width: 20rem; height: 27rem; align-items: flex-start;">
+            <form class="">
+              <div class="form-group">
+                <div class="form-check form-check-input">
+                  <div class="form-check">
+                    <label for=""> Day</label>
+                      <input class="form-control" type="number" id="day" value="DD" max="31" min="01" required>
+                  </div>
+                  <div class="form-check">
+                    <label for="">Month</label>
+                      <input class="form-control" type="number" id="month" value="MM" max="12" min="01" required>
+                  </div>
+                  <div class="form-check">
+                    <label for="">Century</label>
+                      <input class="form-control" type="number" id="century" value="CC"
+                        placeholder="Eg. 19" min="19" max="20" required>
+                  </div>
+                  <div class="form-check">
+                    <label for="">Year</label>
+                      <input class="form-control" type="number" id="year" value="YY" placeholder="Eg. 99"
+                        size="2" min="00"  required>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">Gender</label>
+                      <select class="form-control" id="gender" required style="width: 150px;">
+                        <option value=""></option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                      </select> <br>
+                      <button onclick="akan()" type="submit" class="btn btn-success ">Submit</button>
+                      <button type="reset" class="btn btn-secondary" style=" float:right;">Reset</button>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-        </form>
-
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-2">Submit</button>
-        </div>
-      </div>
     </div>
 
     <!--Footer Code-->
-    <div>
-        <div class="footer">© 2020 Copyright:
-          <a href="https://instagram.com/___w.e.s.h.y"> Weshy X Designs</a>
+        <div class="footer">
+          ©2020 Copyright: <a href="https://instagram.com/___w.e.s.h.y">Weshy X Design</a>
         </div>
-    </div>
 
-    <script> </script>
+    <script src="/script.js"> </script>
 
 </body>
 </html>

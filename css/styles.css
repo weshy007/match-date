@@ -1,14 +1,14 @@
 #navigation-bar{
     font-size: 25px;
+    background-color: grey;
 }
 .navbar-nav{
     position: relative;
     left: 70%;
 }
-/*body{
-    background-image: url(/images/960x0.jpg);
-    background-repeat: no-repeat;
-}*/
+body{
+    background-color: aliceblue;
+}
 .description{
     position: absolute;
     text-align: center;
@@ -17,9 +17,10 @@
     top: 30%;
     font-style: italic;
 } 
-.form{
+.formfill{
     position: absolute;
     top: 120%;
+    left: 30%;
 }
 .col-auto{
     position: absolute;
@@ -30,5 +31,7 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    bottom: 1%;
+    bottom: 0%;
 }
+
+
