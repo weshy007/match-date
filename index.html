@@ -8,6 +8,7 @@
     <title>Match Dates</title>
 </head>
 <body>
+
     <!--Navigaton bar code-->
     <div id="navigation-bar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -35,29 +36,28 @@
           </p>
         </div>
         <div class="formfill">
-          <div class="card" style="width: 20rem; height: 27rem; align-items: flex-start;">
+          <div class="card" style="width: 20rem; height: 27rem; align-items: flex-start; background-color: rgb(56, 147, 175);">
             <form class="">
               <div class="form-group">
                 <div class="form-check form-check-input">
                   <div class="form-check">
                     <label for=""> Day</label>
-                      <input class="form-control" type="number" id="day" value="DD" max="31" min="01" required>
+                      <input class="form-control" type="number" id="day" value="DD" max="31" min="01" placeholder="Date" required>
                   </div>
                   <div class="form-check">
                     <label for="">Month</label>
-                      <input class="form-control" type="number" id="month" value="MM" max="12" min="01" required>
+                      <input class="form-control" type="number" id="month" value="MM" max="12" min="01" placeholder="Month" required>
                   </div>
                   <div class="form-check">
                     <label for="">Century</label>
                       <input class="form-control" type="number" id="century" value="CC"
-                        placeholder="Eg. 19" min="19" max="20" required>
+                        placeholder="First two numbers" min="19" max="20" required>
                   </div>
                   <div class="form-check">
                     <label for="">Year</label>
-                      <input class="form-control" type="number" id="year" value="YY" placeholder="Eg. 99"
+                      <input class="form-control" type="number" id="year" value="YY" placeholder="Last two numbers"
                         size="2" min="00"  required>
                   </div>
-                  
                   <div class="form-group">
                     <label for="exampleFormControlSelect1">Gender</label>
                       <select class="form-control" id="gender" required style="width: 150px;">
