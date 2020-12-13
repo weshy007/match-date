@@ -24,7 +24,7 @@ function akan() {
 
     } else 
      if (gender === "Female") {
-        alert("Your Ghanian akan Name is " + akanFemaleNames[d])
+        alert("You were born on a " + dayOfTheWeek[d] + " and your Ghanian AKAN Name is " + akanFemaleNames[d])
 
     }
 
