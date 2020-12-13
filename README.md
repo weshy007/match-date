@@ -1,4 +1,4 @@
-# AKAN NAMES MATCHED FROM BIRTH DAYS
+## AKAN NAMES MATCHED FROM BIRTH DAYS
 The system is supposed to generate your Akan name and return it from the day you were born
 
 ## Getting Started
