@@ -1,12 +1,23 @@
-AKAN NAMES MATCHED FROM BIRTHDAYS
-
-DESCRIPTION
+# AKAN NAMES MATCHED FROM BIRTH DAYS
 The system is supposed to generate your Akan name and return it from the day you were born
 
-LAGUAGES USED
-HTML
-CSS 
-JavaScript
+## Getting Started
+First you `git clone` the project into your machine and open it with the Virtual studio code. 
+So that is `git clone https://github.com/weshy007/match-date.git` 
 
-Support
-From my Technical mentors and my fellow students, who made this a success. I'm grateful
+## LAGUAGES USED
+- HTML
+- CSS 
+- JavaScript
+
+You can check the end product on [Github Deployment](https://weshy007.github.io/match-date/ "Akan Project") 
+
+## Author
+
+Waithaka Waweru
+
+## Licence
+This project is licenced under the MIT Licence - see the LICENCE.md file for details
+
+## Acknowledgements
+Anyone who's code I've used
