@@ -12,11 +12,20 @@
 .description{
     position: absolute;
     text-align: center;
-    width: 40%;
+    width: 50%;
     left: 25%;
     top: 30%;
     font-style: italic;
 } 
+.form{
+    position: absolute;
+    top: 120%;
+}
+.col-auto{
+    position: absolute;
+    top: 125%;
+    left: -2%;
+}
 .footer {
     position: absolute;
     text-align: center;
