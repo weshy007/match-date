@@ -1,5 +1,5 @@
 ## AKAN NAMES MATCHED FROM BIRTH DAYS
-The system is supposed to generate your Akan name and return it from the day you were born
+The system is a simple system which supposed to generate your Akan name and return it from the day you were born
 
 ## Getting Started
 First you `git clone` the project into your machine and open it with the Virtual studio code. 
@@ -20,4 +20,4 @@ Waithaka Waweru
 This project is licenced under the MIT Licence - see the LICENCE.md file for details
 
 ## Acknowledgements
-Anyone who's code I've used
+Fellow students and Technical mentors for being supportive
