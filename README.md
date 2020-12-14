@@ -25,7 +25,7 @@ Waithaka Waweru
 For Feedback josephwaweru96@gmail.com
 
 ## Licence
-This project is licenced under the MIT Licence - see the LICENCE.md file for details
+This project is licenced under the MIT Licence - see the [LICENCE.md](https://github.com/weshy007/match-date/blob/gh-pages/LICENCE.txt "Licence") file for details
 
 ## Acknowledgements
 Fellow students and Technical mentors for being supportive
