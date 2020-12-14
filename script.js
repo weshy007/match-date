@@ -1,8 +1,8 @@
 var akanMaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku ", "Yaw", "Kofi", "Kwame"];
-var akanFemaleNames = ["Akosua", "Adwoa", " Abenaa", "Akua", "  Yaa", "Afua"];
-var dayOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+var akanFemaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+var dayOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-function akan() {
+function akanGen() {
 
     var dd = parseInt(document.getElementById("day").value);
     var mm = parseInt(document.getElementById("month").value);
@@ -24,12 +24,12 @@ function akan() {
     } 
     
     else if (gender === "Male") {
-        alert("You were born on a " + dayOfTheWeek[dd] + " and your Ghanian AKAN Name is " + akanMaleNames[dd])
+        alert("You were born on a " + dayOfTheWeek[d] + " and your Ghanian AKAN Name is " + akanMaleNames[d])
 
     } 
     
     else if (gender === "Female") {
-        alert("You were born on a " + dayOfTheWeek[dd] + " and your Ghanian AKAN Name is " + akanFemaleNames[dd])
+        alert("You were born on a " + dayOfTheWeek[d] + " and your Ghanian AKAN Name is " + akanFemaleNames[d])
 
     }
 
