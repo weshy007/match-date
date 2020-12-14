@@ -24,7 +24,7 @@ function akan() {
         return false;
     } 
 
-    else if (cc === 20 || yy > 21 ){
+    else if (cc === 20 || yy > 22 ){
         alert("Weirdly, you are not yet born!!")
     }
     
