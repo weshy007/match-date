@@ -22,10 +22,11 @@ You can check the end product on [Github Deployment](https://weshy007.github.io/
 ## Author & Contacts
 
 Waithaka Waweru 
-For Feedback josephwaweru96@gmail.com
+- For Feedback josephwaweru96@gmail.com
 
 ## Licence
-This project is licenced under the MIT Licence - see the [LICENCE.md](https://github.com/weshy007/match-date/blob/gh-pages/LICENCE.txt "Licence") file for details
+This project is licenced under the MIT Licence - see the [LICENCE.md](https://github.com/weshy007/match-date/blob/gh-pages/LICENCE.txt "Licence") file for details 
+- copyright 2020 - Waithaka Waweru 
 
 ## Acknowledgements
 Fellow students and Technical mentors for being supportive
