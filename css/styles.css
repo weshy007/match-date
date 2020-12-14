@@ -1,6 +1,6 @@
 #navigation-bar{
     font-size: 25px;
-    background-color: grey;
+    background-color: rgb(21, 74, 90);
 }
 .navbar-nav{
     position: relative;
@@ -21,17 +21,14 @@ body{
     position: absolute;
     top: 120%;
     left: 30%;
+    border: 2px black;
 }
-.col-auto{
-    position: absolute;
-    top: 125%;
-    left: -2%;
-}
+
 .footer {
     position: absolute;
     text-align: center;
-    width: 100%;
-    bottom: 0%;
+    width: 30%;
+    bottom: 1px;
 }
 
 

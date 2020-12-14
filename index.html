@@ -32,12 +32,12 @@
           <p>In this application you'll be able to get your <em>AKAN NAME</em> which is calculated from the day of the week you were born. </br> 
               Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </br>
               Most Ghanaians have at least one name from this system, even if they also have an Arabic or western name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary General Kofi Annan.</br> </br>
-              Let's get Started... </br>
+              Let's get Started... </br> 
               Please fill the form below
           </p>
         </div>
 
-    <form>
+    <form id="formfill">
       <div class="form-group">
         <label for="">Day</label>
         <input type="number" class="form-control" id="day" value="dd" placeholder="Date" max="31" min="01">
@@ -48,23 +48,21 @@
       </div>
       <div class="form-group">
         <label for="">Century</label>
-        <input type="number" class="form-control" id="century" placeholder="First two numbers">
+        <input type="number" class="form-control" id="century" placeholder="First two numbers" min="19" max="20">
       </div>
       <div class="form-group">
         <label for="">Year</label>
         <input type="number" class="form-control" id="year" placeholder="Last two numbers" max="99" min="01">
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">Gender</label>
+        <label for="">Gender</label>
           <select class="form-control" id="gender">
-            <option value=""></option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
-          </select>
+          </select> </br>
           <button onclick="akan()" type="submit" class="btn btn-success">Submit</button>
           <button type="reset" class="btn btn-secondary" >Reset</button>
       </div>
-
     </form>
 
     <!--Footer Code-->

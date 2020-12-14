@@ -14,15 +14,19 @@ function akan() {
 
 
     if (mm <= 0 || mm > 12) {
-        alert("please enter a valid month")
+        alert("Please enter a valid month")
         return false;
 
     } 
     
     else if (dd < 1 || dd > 31) {
-        alert("please enter a valid date")
+        alert("Please enter a valid date")
         return false;
     } 
+
+    else if (cc === 20 || yy > 21 ){
+        alert("Weirdly, you are not yet born!!")
+    }
     
     else if (gender === "Male") {
         alert("You were born on a " + dayOfTheWeek[dd] + " and your Ghanian AKAN Name is " + akanMaleNames[dd])
