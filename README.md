@@ -9,12 +9,20 @@ So that is `git clone https://github.com/weshy007/match-date.git`
 - HTML
 - CSS 
 - JavaScript
+- Bootstrap
 
 You can check the end product on [Github Deployment](https://weshy007.github.io/match-date/ "Akan Project") 
 
-## Author
+## Behavior Driven Development(BDD)
+- The user is required to enter their gender and Birth date(01-31), month (1-12), century the were born(example 19) and the year(00-99) they were born in that century.
+- The information is matched to the day they were born
+- The user is alerted with a message what day they were born and their Akan Name
+- If the user inputs wrong information, they get notified
 
-Waithaka Waweru
+## Author & Contacts
+
+Waithaka Waweru 
+For Feedback josephwaweru96@gmail.com
 
 ## Licence
 This project is licenced under the MIT Licence - see the LICENCE.md file for details
